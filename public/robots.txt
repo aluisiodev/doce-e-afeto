@@ -1,0 +1,8 @@
+# SITE AINDA NAO DIVULGADO — nao aparecer em buscadores.
+# QUANDO A ANA APROVAR: troque tudo isto pelas duas linhas comentadas no final.
+
+User-agent: *
+Disallow: /
+
+# User-agent: *
+# Allow: /
