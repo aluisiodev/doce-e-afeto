@@ -26,7 +26,7 @@ const Hero = () => {
         </h1>
         <p className="mx-auto mb-10 max-w-xl font-body text-lg leading-relaxed text-primary-foreground/90 md:text-xl">
           Bolos, trufas e docinhos feitos à mão pela {loja.confeiteira}. Escolha o seu, monte
-          o pedido e fale direto com ela no WhatsApp.
+          o pedido e finalize no WhatsApp.
         </p>
 
         <div className="flex flex-col items-center justify-center gap-3 sm:flex-row">

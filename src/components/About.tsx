@@ -16,7 +16,7 @@ const About = () => {
         </h2>
         <p className="mb-6 font-body text-lg leading-relaxed text-muted-foreground">
           A <span className="font-medium text-primary">{loja.nome}</span> é a confeitaria da{" "} <span className="font-medium text-foreground">{loja.confeiteira}</span>.
-          \n Aqui temos doces artesanais preparados diariamente, com ingredientes de qualidade e muito carinho.
+          Aqui temos doces artesanais preparados diariamente, com ingredientes de qualidade e muito carinho.
         </p>
         <p className="font-body text-lg leading-relaxed text-muted-foreground">
           Brownies, bolos caseiros, cookies, delícias para adoçar seu dia 💛
