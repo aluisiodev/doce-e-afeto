@@ -1,10 +1,11 @@
 import { Heart } from "lucide-react";
 import { loja } from "@/config/loja";
 
-/**
- * TROQUE ESTE TEXTO pela história real da Ana — é o que faz o site
- * parecer dela e não um modelo pronto.
- */
+/** 
+ * {" "} <span className="font-medium text-foreground">{loja.confeiteira}</span>.
+*/ 
+          
+
 const About = () => {
   return (
     <section id="sobre" className="scroll-mt-16 bg-secondary px-4 py-24">
@@ -14,13 +15,11 @@ const About = () => {
           Quem faz
         </h2>
         <p className="mb-6 font-body text-lg leading-relaxed text-muted-foreground">
-          A <span className="font-medium text-primary">{loja.nome}</span> é a confeitaria da{" "}
-          <span className="font-medium text-foreground">{loja.confeiteira}</span>. Cada
-          receita sai da cozinha dela, feita à mão, com ingrediente bom e sem pressa.
+          A <span className="font-medium text-primary">{loja.nome}</span> é a confeitaria da{" "} <span className="font-medium text-foreground">{loja.confeiteira}</span>.
+          \n Aqui temos doces artesanais preparados diariamente, com ingredientes de qualidade e muito carinho.
         </p>
         <p className="font-body text-lg leading-relaxed text-muted-foreground">
-          Aniversário, casamento, chá de bebê, formatura ou só aquela vontade de doce no meio
-          da semana: é só chamar no WhatsApp que ela monta a encomenda junto com você.
+          Brownies, bolos caseiros, cookies, delícias para adoçar seu dia 💛
         </p>
       </div>
     </section>

@@ -20,8 +20,7 @@ const Products = () => {
             Feitos com amor
           </h2>
           <p className="mx-auto mt-5 max-w-xl font-body leading-relaxed text-muted-foreground">
-            Escolha um doce para ver os sabores e montar sua encomenda. No final, o pedido
-            vai direto pro WhatsApp da Ana.
+            Escolha um doce para ver os sabores e montar sua encomenda.
           </p>
         </div>
 

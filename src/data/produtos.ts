@@ -44,7 +44,6 @@ export type Campo =
       opcoes: string[];
       placeholder?: string;
       obrigatorio?: boolean;
-      ajuda?: string;
     }
   | {
       id: string;
@@ -53,7 +52,6 @@ export type Campo =
       opcoes: string[];
       max?: number;
       obrigatorio?: boolean;
-      ajuda?: string;
     }
   | {
       id: string;
@@ -61,7 +59,6 @@ export type Campo =
       rotulo: string;
       placeholder?: string;
       obrigatorio?: boolean;
-      ajuda?: string;
     };
 
 export interface Produto {
@@ -155,7 +152,6 @@ export const produtos: Produto[] = [
         tipo: "texto",
         rotulo: "Tema, cores ou mensagem",
         placeholder: "Ex.: aniversário de 15 anos, tons de lilás, escrito “Parabéns, Duda”",
-        ajuda: "Opcional — se quiser, mande uma foto de referência direto no WhatsApp.",
       },
       {
         id: "data",
@@ -191,7 +187,6 @@ export const produtos: Produto[] = [
         rotulo: "Sabores",
         obrigatorio: true,
         max: 4,
-        ajuda: "Escolha até 4 sabores — a Ana divide a quantidade entre eles.",
         opcoes: [
           "Chocolate ao leite",
           "Chocolate branco",
@@ -242,7 +237,6 @@ export const produtos: Produto[] = [
         rotulo: "Sabores",
         obrigatorio: true,
         max: 3,
-        ajuda: "Escolha até 3 sabores.",
         opcoes: SABORES_DOCINHO,
       },
       {

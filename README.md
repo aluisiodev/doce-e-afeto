@@ -3,8 +3,7 @@
 Site-vitrine da confeitaria da **Ana Beatriz**. A pessoa navega pelo cardápio, monta a
 encomenda (quantidade, sabor, personalização) e finaliza conversando com a Ana no WhatsApp.
 
-Não há carrinho, login nem pagamento no site — de propósito. O site apresenta o trabalho e
-entrega a conversa pronta pro WhatsApp.
+Não há carrinho, login nem pagamento no site. O site apresenta o trabalho e entrega a conversa pronta pro WhatsApp.
 
 ## Rodando na sua máquina
 

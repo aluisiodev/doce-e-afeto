@@ -206,9 +206,6 @@ const ProductDialog = ({ produto, onClose }: ProductDialogProps) => {
                       ))}
                     </SelectContent>
                   </Select>
-                  {campo.ajuda && (
-                    <p className="font-body text-xs text-muted-foreground">{campo.ajuda}</p>
-                  )}
                 </div>
               );
             }
@@ -246,12 +243,6 @@ const ProductDialog = ({ produto, onClose }: ProductDialogProps) => {
                       );
                     })}
                   </div>
-                  {campo.ajuda && (
-                    <p className="font-body text-xs text-muted-foreground">
-                      {campo.ajuda}
-                      {campo.max && ` (${marcados.length}/${campo.max})`}
-                    </p>
-                  )}
                 </fieldset>
               );
             }
@@ -268,9 +259,6 @@ const ProductDialog = ({ produto, onClose }: ProductDialogProps) => {
                   placeholder={campo.placeholder}
                   onChange={(e) => definir(campo.id, e.target.value)}
                 />
-                {campo.ajuda && (
-                  <p className="font-body text-xs text-muted-foreground">{campo.ajuda}</p>
-                )}
               </div>
             );
           })}
@@ -285,12 +273,13 @@ const ProductDialog = ({ produto, onClose }: ProductDialogProps) => {
             {pronto
               ? "Abre o WhatsApp da Ana com o seu pedido já escrito. Nada é cobrado agora."
               : `Falta escolher: ${faltando.join(", ")}.`}
-          </p>
-          {loja.antecedencia && (
+         </p>
+         {/** 
+            {loja.antecedencia && (
             <p className="mt-1 text-center font-body text-xs text-muted-foreground/80">
               {loja.antecedencia}
             </p>
-          )}
+          )}  */}
         </div>
       </DialogContent>
     </Dialog>

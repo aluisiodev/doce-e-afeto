@@ -14,11 +14,6 @@ const Contact = () => {
         <h2 className="mb-6 font-display text-4xl font-bold text-foreground md:text-5xl">
           Faça seu pedido
         </h2>
-        <p className="mx-auto mb-10 max-w-xl font-body text-lg text-muted-foreground">
-          Chame a {loja.confeiteira} no WhatsApp e conte o que você precisa. Ela responde com
-          o orçamento e combina a data de entrega com você.
-        </p>
-
         <BotaoWhatsapp
           href={linkWhatsapp(loja.saudacaoWhatsapp)}
           tamanho="lg"
@@ -28,7 +23,7 @@ const Contact = () => {
         </BotaoWhatsapp>
 
         <p className="mb-4 mt-10 font-body text-sm text-muted-foreground">
-          Ou acompanhe por aqui:
+          Nos acompanhe por aqui:
         </p>
         <RedesSociais />
 
@@ -38,13 +33,15 @@ const Contact = () => {
               <MapPin className="h-4 w-4 text-primary" />
               {loja.cidade}
             </span>
-          )}
-          {loja.antecedencia && (
+            )}
+            {/**
+            {loja.antecedencia && (
             <span className="inline-flex items-center gap-2">
               <Clock className="h-4 w-4 text-primary" />
               {loja.antecedencia}
             </span>
           )}
+            */}
           {loja.entrega && (
             <span className="inline-flex items-center gap-2">
               <Truck className="h-4 w-4 text-primary" />
