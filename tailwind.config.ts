@@ -18,6 +18,12 @@ export default {
         body: ["Inter", "sans-serif"],
         accent: ["Fraunces", "Georgia", "serif"],
       },
+    //extend: {      
+      //fontFamily: {
+        //display: ["Fraunces", "Georgia", "serif"],      // Títulos
+        //body: ["Montserrat", "sans-serif"],             // Textos principais
+        //accent: ["Allura", "cursive"],                  // Detalhes / Textos pequenos
+     // },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",

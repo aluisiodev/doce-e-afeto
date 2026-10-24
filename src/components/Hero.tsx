@@ -6,7 +6,7 @@ import { linkWhatsapp } from "@/lib/whatsapp";
 
 const Hero = () => {
   return (
-    <section className="relative flex min-h-screen items-center justify-center overflow-hidden">
+    <section className="relative flex min-h-screen items-center justify-center overflow-hidden bg-[#FBF3E4]">
       <div className="absolute inset-0">
         <img
           src={heroImage}
@@ -18,15 +18,15 @@ const Hero = () => {
       </div>
 
       <div className="relative z-10 mx-auto max-w-3xl animate-fade-in-up px-4 text-center motion-reduce:animate-none">
-        <p className="mb-4 font-body text-sm uppercase tracking-[0.3em] text-primary-foreground/80">
+        <p className="mb-4 font-body text-sm uppercase tracking-[0.3em] text-primary-foreground/80 text-[#901905]">
           Confeitaria artesanal
         </p>
-        <h1 className="mb-6 font-display text-5xl font-semibold leading-tight tracking-tight text-primary-foreground md:text-7xl lg:text-8xl">
+        <h1 className="mb-6 font-display text-5xl font-semibold leading-tight tracking-tight text-primary-foreground text-[#901905] md:text-7xl lg:text-8xl">
           Doce <span className="mx-1 font-light">&amp;</span> Afeto
         </h1>
         <p className="mx-auto mb-10 max-w-xl font-body text-lg leading-relaxed text-primary-foreground/90 md:text-xl">
           Bolos, trufas e docinhos feitos à mão pela {loja.confeiteira}. Escolha o seu, monte
-          o pedido e finalize no WhatsApp.
+           o pedido e finalize no WhatsApp.
         </p>
 
         <div className="flex flex-col items-center justify-center gap-3 sm:flex-row">

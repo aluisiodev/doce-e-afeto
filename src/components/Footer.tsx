@@ -30,7 +30,7 @@ const Footer = () => {
 
         <p className="flex items-center justify-center gap-1 font-body text-sm text-muted-foreground">
           © {new Date().getFullYear()} {loja.nome} — feito com
-          <Heart className="h-4 w-4 fill-primary text-primary" />e muito açúcar
+          <Heart className="h-4 w-4 fill-primary text-primary" />
         </p>
       </div>
     </footer>

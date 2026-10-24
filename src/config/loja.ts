@@ -21,7 +21,7 @@ export const loja = {
 
   email: "",
 
-  cidade: "São Paulo, SP",
+  cidade: "Bom Retiro - São Paulo, SP",
   entrega: "Entrega e retirada combinadas pelo WhatsApp",
 
   /** Antecedência mínima para encomendas — aparece no rodapé dos modais.

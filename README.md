@@ -66,6 +66,8 @@ Queria encomendar: *Bolos*
 - Sabor: Red velvet
 - Quantidade: 2 bolos
 - Decoração: Decoração personalizada (tema, cores, topo)
+- Como prefere receber: Retirada na Doce e Afeto (Bairro Bom Retiro)
+- Observação: Entregar com velinhas decorativas
 
 Consegue me passar o valor e a disponibilidade?
 ```
@@ -83,12 +85,16 @@ src/
 │   ├── Navbar.tsx            menu fixo do topo
 │   ├── Hero.tsx              primeira dobra da home
 │   ├── Destaques.tsx         prévia de 3 produtos na home
-│   ├── About.tsx             "Quem faz"               <- texto genérico, trocar
+│   ├── About.tsx             Sobre - "Quem faz"               
 │   ├── Products.tsx          grade do cardápio + filtro por categoria
 │   ├── ProductDialog.tsx     modal de montar o pedido
 │   ├── Contact.tsx           seção de encomendas
 │   ├── Footer.tsx            rodapé
 │   ├── BotaoWhatsapp.tsx     botão verde reaproveitável
+│   ├── BotaoWhatsappFlutuante.tsx  botão flutuante do WhatsApp
+│   ├── RedesSociais.tsx      ícones das redes sociais
+│   ├── ScrollParaHash.tsx    rola suavemente até âncoras (#sobre, etc.)
+│   ├── icons/                ícones SVG personalizados (TikTok, WhatsApp)
 │   └── ui/                   componentes shadcn/ui (não precisa mexer)
 └── pages/
     ├── Index.tsx             /
