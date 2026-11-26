@@ -1,9 +1,40 @@
+<div align="center">
+
 # Doce & Afeto
 
 Site-vitrine da confeitaria da **Ana Beatriz**. A pessoa navega pelo cardápio, monta a
 encomenda (quantidade, sabor, personalização) e finaliza conversando com a Ana no WhatsApp.
 
-Não há carrinho, login nem pagamento no site. O site apresenta o trabalho e entrega a conversa pronta pro WhatsApp.
+**[Ver o site no ar](https://doce-e-afeto.vercel.app/)**
+
+![React](https://img.shields.io/badge/React_18-20232A?logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?logo=tailwindcss&logoColor=white)
+![shadcn/ui](https://img.shields.io/badge/shadcn%2Fui-000000?logo=shadcnui&logoColor=white)
+![Vitest](https://img.shields.io/badge/Vitest-6E9F18?logo=vitest&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?logo=vercel&logoColor=white)
+
+<img src="docs/screenshots/home.webp" alt="Página inicial da Doce & Afeto" width="900">
+
+</div>
+
+## Sobre o projeto
+
+Projeto para uma cliente real: a Ana Beatriz faz bolos, trufas e doces de festa e recebia todas as encomendas
+por mensagem, respondendo as mesmas perguntas (tamanho, sabor, quantidade, entrega) uma por uma.
+
+**A solução:** um site que apresenta o trabalho dela e faz essas perguntas antes. Cada produto tem o seu formulário,
+e o botão "Encomendar" abre o WhatsApp com a mensagem já escrita e organizada. Não há carrinho, login nem
+pagamento: a venda continua acontecendo na conversa, do jeito que ela já trabalhava.
+
+## Telas
+
+| Cardápio | Montando a encomenda |
+|---|---|
+| ![Cardápio com filtro por categoria](docs/screenshots/produtos.webp) | ![Modal de encomenda de bolo, com tamanho, sabor e decoração](docs/screenshots/modal.webp) |
+
+<p align="center"><img src="docs/screenshots/mobile.webp" alt="Página inicial no celular" width="280"></p>
 
 ## Rodando na sua máquina
 
